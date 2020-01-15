@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:padding="@dimen/activity_vertical_margin"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_lan"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    		
+    		<Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/head"
+        			android:text="SELESAI"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+    
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:scrollbars="none"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    		
+        
+        
+        
+        
+        
+        
+    
+        <LinearLayout 
+            android:orientation="vertical"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content">
+    <RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	
+         <ImageView 
+             android:id="@+id/img"
+        android:layout_marginRight="5dp"
+    	android:layout_width="100dp"
+    	android:layout_centerHorizontal="true"
+    	android:layout_height="100dp"
+    	android:layout_marginBottom="5dp"
+    	android:background="@drawable/selesai"
+        />
+   
+    <TextView
+        android:id="@+id/tx1"
+    	android:layout_marginBottom="5dp"
+             android:layout_below="@+id/img"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_tentang"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    <Button
+        
+             android:layout_below="@+id/tx1"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/bt1"
+        			android:text="OK"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/wnila"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+   
+    </RelativeLayout>
+
+     
+    
+    	</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

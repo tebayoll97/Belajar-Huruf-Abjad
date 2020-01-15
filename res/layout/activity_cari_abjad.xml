@@ -1,0 +1,399 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/bg_main"
+    tools:context="com.tebayoll.hurufabjad.CariAbjad" >
+    
+    <RelativeLayout 
+        android:id="@+id/air"
+        android:background="@drawable/air"
+    	android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true">
+        </RelativeLayout>
+
+    
+        
+    
+    <!-- abjad 10 --> 
+    
+    <RelativeLayout
+        	  android:id="@+id/al_abjad"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:visibility="invisible"
+              android:layout_above="@+id/btn_th" 
+              android:layout_below="@+id/back">
+        
+        <Button
+            android:textAllCaps="true"
+            android:id="@+id/abjad2"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_marginBottom="@dimen/back_mB"
+            android:layout_marginLeft="@dimen/back_m"
+            android:layout_marginRight="@dimen/back_m"
+            android:layout_marginTop="@dimen/back_m"
+            android:layout_x="291dp"
+            android:layout_y="52dp"
+            android:background="@drawable/btn_main_activity"
+            android:text="2"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad4"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp"
+            android:background="@drawable/btn_main_activity"
+            android:text="4"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad8"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/btn_main_activity"
+            android:text="8"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad9"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_main_activity"
+            android:text="9"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad10"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_below="@+id/abjad9"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@+id/abjad8"
+            android:background="@drawable/btn_main_activity"
+            android:text="10"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad6"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignBottom="@+id/abjad8"
+            android:layout_marginBottom="21dp"
+            android:layout_marginRight="50dp"
+            android:layout_toLeftOf="@+id/abjad9"
+            android:background="@drawable/btn_main_activity"
+            android:text="6"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad7"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_above="@+id/abjad4"
+            android:layout_toLeftOf="@+id/abjad6"
+            android:background="@drawable/btn_main_activity"
+            android:text="7"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad1"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/abjad4"
+            android:background="@drawable/btn_main_activity"
+            android:text="1"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad5"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@+id/abjad10"
+            android:background="@drawable/btn_main_activity"
+            android:text="5"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/abjad3"
+            android:layout_width="@dimen/btn_cari_abjad_w"
+            android:layout_height="@dimen/btn_cari_abjad_h"
+            android:layout_alignBaseline="@+id/abjad8"
+            android:layout_alignBottom="@+id/abjad8"
+            android:layout_alignLeft="@+id/abjad9"
+            android:background="@drawable/btn_main_activity"
+            android:text="3"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/tx_cari_abjad"
+            android:textStyle="bold" />
+        
+        </RelativeLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cd"
+        android:visibility="invisible"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/whijau"
+        android:textSize="20sp" />
+    
+    <Button 
+        android:id="@+id/coin"
+        android:padding="@dimen/btnMain_p"
+        android:background="@drawable/coin"
+        android:layout_width="45dp"
+        
+        android:layout_margin="2dp"
+        android:visibility="invisible"
+        android:layout_toLeftOf="@+id/nilai"
+        android:layout_height="45dp"
+        /> 
+    
+     <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:id="@+id/nilai"
+        android:text="nilai"
+        android:padding="10dp"
+        android:background="@drawable/wnila"
+        android:textSize="20sp" />
+    
+     <Button 
+        android:onClick="back"
+        android:id="@+id/back"
+        android:layout_marginLeft="@dimen/back_mL"
+        android:layout_marginRight="@dimen/back_mR"
+        android:layout_marginTop="@dimen/back_mT"
+        android:layout_marginBottom="@dimen/back_mB"
+        android:background="@drawable/back"
+        android:layout_height="@dimen/back_h"
+        android:layout_width="@dimen/back_w"
+        android:layout_alignParentLeft="true"
+        />
+     
+     
+    
+     
+     <Button 
+        android:id="@+id/btn_th"
+        android:text="Target Huruf : "
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:visibility="invisible"
+        android:textSize="@dimen/btn_tbk_reset"
+        android:layout_marginLeft="@dimen/back_m"
+        android:layout_marginRight="@dimen/back_m"
+        android:layout_marginTop="@dimen/back_m"
+        android:layout_marginBottom="@dimen/back_mB"
+        android:background="@drawable/wjingga"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+     
+     <!-- awal --> 
+     
+     
+      <!-- awal --> 
+    
+    <RelativeLayout
+        	  android:id="@+id/rl_awal"
+        	  android:background="@drawable/bg_portrait"
+        android:layout_width="@dimen/svWidth"
+        android:gravity="center"
+        android:layout_height="match_parent"
+              android:layout_centerHorizontal="true">
+              
+        
+         
+         <Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        android:id="@+id/tv_target_text"
+        android:text="Target huruf kamu"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="30dp"
+       				android:layout_width="210dp"
+       				android:layout_height="@dimen/tagsoal_h"/>
+         
+         
+         
+          <Button 
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_thawal"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/tx_thawal"
+        android:layout_marginLeft="@dimen/back_m"
+        android:layout_marginRight="@dimen/back_m"
+        android:layout_marginTop="@dimen/back_m"
+        android:layout_marginBottom="@dimen/back_mB"
+        android:background="@drawable/btn_delete"
+        android:layout_height="@dimen/thawal"
+        android:layout_width="@dimen/thawal"
+        android:padding="10dp"
+        />
+             
+          
+            <Button 
+        android:layout_centerHorizontal="true"
+        android:id="@+id/start"
+        android:text="START"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/btn_tbk_reset"
+        android:layout_marginLeft="@dimen/back_m"
+        android:layout_marginRight="@dimen/back_m"
+        android:layout_marginTop="@dimen/back_m"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btnp_xml"
+        android:layout_height="@dimen/reset_h"
+        android:layout_width="@dimen/reset_w"
+        />
+            
+        </RelativeLayout>
+        
+    <!-- Rl hasil -->
+    
+    <RelativeLayout
+        	  android:id="@+id/rl_hasil"
+        	  android:background="@drawable/bg_portrait"
+        android:layout_width="@dimen/svWidth"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_height="match_parent"
+              android:layout_centerHorizontal="true">
+              
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/tv_score"
+        android:text="Score Kamu"
+        android:gravity="center"
+        android:textSize="40sp" 
+        android:layout_centerHorizontal="true"/>
+         
+         
+        />
+        
+        <TextView
+            android:layout_marginTop="30dp"
+        android:layout_below="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/score"
+        android:gravity="center"
+        android:text="Score Kamu"
+        android:textSize="30sp" 
+        android:layout_centerHorizontal="true"/>
+        />
+        
+        <TextView
+            android:layout_marginTop="30dp"
+        android:layout_below="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/high_score"
+        android:text="Score Kamu"
+        android:gravity="center"
+        android:textSize="20sp" 
+        android:layout_centerHorizontal="true"/>
+        />
+        
+        <Button
+            android:layout_marginTop="40dp"
+        android:layout_below="@+id/high_score"
+        android:layout_height="@dimen/back_h"
+        android:layout_width="@dimen/back_w"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/btn_ok"
+        android:text="MAIN LAGI"
+        android:gravity="center"
+        android:background="@drawable/btnp_xml" 
+        android:layout_centerHorizontal="true"/>
+        />
+            
+        </RelativeLayout>
+    
+  
+     
+
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:gravity="center"
+        android:padding="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lan"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    		
+    		<Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/head"
+        			android:text="KREDIT"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+    
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:scrollbars="none"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    		
+        
+        
+        
+        
+        
+        
+    
+        <LinearLayout 
+            android:orientation="vertical"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content">
+    <LinearLayout 
+            android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:gravity="center_vertical"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx1"
+        android:text="Programmer dan Desain Aplikasi"
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_kredit"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+     
+        <Button 
+        android:id="@+id/bt1"
+        android:text="Nurkholis"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_lvl"
+        android:background="@drawable/btn_main_activity"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:layout_height="@dimen/btnlvl_h"
+        android:layout_width="@dimen/btnlvl_w"
+        />
+    
+    	<LinearLayout 
+    	android:gravity="center_vertical"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx2"
+        android:text="Asset Gambar Abjad"
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_kredit"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+     
+        <Button 
+        android:id="@+id/bt2"
+        android:text="macrovector"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_lvl"
+        android:background="@drawable/btn_main_activity"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:layout_height="@dimen/btnlvl_h"
+        android:layout_width="@dimen/btnlvl_w"
+        />
+
+        <LinearLayout 
+    	android:gravity="center_vertical"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx3"
+        android:text="Asset Gambar Hewan"
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_kredit"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+     
+        <Button 
+        android:id="@+id/bt3"
+        android:text="brgfx"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_lvl"
+        android:background="@drawable/btn_main_activity"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:layout_height="@dimen/btnlvl_h"
+        android:layout_width="@dimen/btnlvl_w"
+        />
+        
+        
+        <LinearLayout 
+    	android:gravity="center_vertical"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx4"
+        android:text="Musik Background dan Sfx"
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_kredit"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+     
+        <Button 
+        android:id="@+id/bt4"
+        android:text="Freesound.org"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_lvl"
+        android:background="@drawable/btn_main_activity"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:layout_height="@dimen/btnlvl_h"
+        android:layout_width="@dimen/btnlvl_w"
+        />
+        
+
+        
+    
+    
+    	</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

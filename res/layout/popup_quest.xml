@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#90000000"
+    tools:context="com.tebayoll.hurufabjad.MainActivity" >
+    
+    <RelativeLayout 
+    
+        android:id="@+id/popup"
+    	android:padding="@dimen/activity_vertical_margin"
+        android:background="@drawable/bg_lan"
+        android:layout_width="@dimen/svWidth"
+        android:layout_height="@dimen/svHeight"
+        android:layout_centerInParent="true">
+        
+         <Button 
+        android:id="@+id/tutup"
+        android:text="x"
+        android:background="@drawable/btnmain"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+         
+          <RelativeLayout 
+    
+        android:layout_below="@+id/tutup"
+        android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        
+        <Button 
+        android:id="@+id/mudah"
+        android:text="Mudah"
+        android:background="@drawable/btnmain"
+        android:layout_height="@dimen/btnPopup_h"
+        android:layout_width="@dimen/btnPopup_w"
+        />
+        
+         <Button 
+        android:id="@+id/sedang"
+        android:layout_below="@+id/mudah"
+        android:text="Sedang"
+        android:background="@drawable/btnmain"
+        android:layout_height="@dimen/btnPopup_h"
+        android:layout_width="@dimen/btnPopup_w"
+        />
+         
+          <Button 
+        android:id="@+id/sulit"
+        android:layout_below="@+id/sedang"
+        android:text="Sulit"
+        android:background="@drawable/btnmain"
+        android:layout_height="@dimen/btnPopup_h"
+        android:layout_width="@dimen/btnPopup_w"
+        />
+          </RelativeLayout>
+        
+        
+        
+        </RelativeLayout>
+        </RelativeLayout>

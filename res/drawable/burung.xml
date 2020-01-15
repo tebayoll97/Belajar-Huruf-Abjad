@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/burung_a"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_b"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_c"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_d"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_e"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_f"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_g"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/burung_h"
+        android:duration="150"/>
+    
+    
+
+</animation-list>

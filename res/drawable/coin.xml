@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/coin_a"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_b"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_c"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_d"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_e"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_f"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_g"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_h"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_i"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_j"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_k"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_l"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_m"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_n"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_o"
+        android:duration="90"/>
+    
+    <item
+        android:drawable="@drawable/coin_p"
+        android:duration="90"/>
+    
+
+
+</animation-list>

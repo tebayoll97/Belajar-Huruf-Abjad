@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tebayoll.hurufabjad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+            
+        </activity>
+        <activity
+            android:name=".Abjad"
+            android:label="@string/title_activity_abjad"
+            android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        <activity
+            android:name=".Hewan"
+            android:label="@string/title_activity_hewan"
+            android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        <activity
+            android:name=".Mudah"
+            android:label="@string/title_activity_mudah"
+            android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        <activity
+            android:name=".Coba"
+            android:label="@string/title_activity_coba"
+            android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        <activity
+            android:name=".Tebak"
+            android:label="@string/title_activity_tebak"
+            android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        <activity
+            android:name=".Warna"
+            android:label="@string/title_activity_warna" 
+             android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        <activity
+            android:name=".CariAbjad"
+            android:label="@string/title_activity_cari_abjad" 
+             android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+        </activity>
+        
+        <activity
+            android:name=".Splashscreen"
+            android:label="Huruf Abjad" 
+            android:noHistory="true"
+             android:screenOrientation="landscape"
+            android:theme="@style/noWindow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+    </application>
+
+</manifest>

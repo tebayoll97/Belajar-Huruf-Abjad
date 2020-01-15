@@ -1,0 +1,217 @@
+<resources>
+    
+    <!-- Default Drawable -->
+    
+    <dimen name="lima">5dp</dimen>
+    
+    
+    <dimen name="manuk_h">40dp</dimen>
+    <dimen name="manuk_w">60dp</dimen>
+    <dimen name="air">200dp</dimen>
+    
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">14dp</dimen>
+    <dimen name="activity_vertical_margin">14dp</dimen>
+
+    <!-- activity_main -->
+    
+    
+
+<dimen name="tx_main_menu">15sp</dimen>
+<dimen name="tx_main_activity">8sp</dimen>
+    
+
+<dimen name="btnMain_mT">8dp</dimen>
+
+<dimen name="btnMain_p">9dp</dimen>
+
+<dimen name="svWidth">380dp</dimen>
+<dimen name="svHeight">200dp</dimen>
+<dimen name="btnMain">10dp</dimen>
+<dimen name="btnMain_m">5dp</dimen>
+
+
+<dimen name="hurufabjad">18sp</dimen>
+
+
+<dimen name="btnPopup_w">150dp</dimen>
+<dimen name="btnPopup_h">35dp</dimen>
+
+<dimen name="exitPopup_w">100dp</dimen>
+<dimen name="exitPopup_h">35dp</dimen>
+
+
+<dimen name="back_w">80dp</dimen>
+<dimen name="back_h">40dp</dimen>
+<dimen name="back_m">5dp</dimen>
+<dimen name="back_mR">5dp</dimen>
+<dimen name="back_mL">3dp</dimen>
+<dimen name="back_mT">0dp</dimen>
+<dimen name="back_mB">5dp</dimen>
+
+	<!-- activity_abjad -->
+	
+<dimen name="hewan_atas_m">3dp</dimen>
+<dimen name="hewan_atas_w">55dp</dimen>
+<dimen name="hewan_atas_h">80dp</dimen>
+	
+<dimen name="abjWidth">410dp</dimen>
+<dimen name="abjHeight">250dp</dimen>
+<dimen name="btnAbj">37dp</dimen>
+<dimen name="btnAbj_m">3.5dp</dimen>
+
+<dimen name="rlkiri_mL">10dp</dimen>
+<dimen name="rlkiri_mR">6dp</dimen>
+<dimen name="rlkiri_mT">13dp</dimen>
+
+
+<dimen name="abc_w">70dp</dimen>
+<dimen name="abc_h">35dp</dimen>
+
+	<!-- activity_hewan -->
+		
+<dimen name="hewanWidth">370dp</dimen>
+<dimen name="bWidth">103dp</dimen>
+<dimen name="bHeight">112dp</dimen>
+<dimen name="pHeight">30dp</dimen>
+<dimen name="mHeight">240dp</dimen>
+
+
+<dimen name="abjad_animW">60dp</dimen>
+<dimen name="abjad_animH">70dp</dimen>
+
+<dimen name="hewan_animW">175dp</dimen>
+<dimen name="hewan_animH">200dp</dimen>
+
+
+<dimen name="hewan_mT">18dp</dimen>
+
+
+
+	<!-- activity_mudah -->
+
+<dimen name="coin">100dp</dimen>	
+	
+	
+<dimen name="dialog_m">8dp</dimen>
+<dimen name="dialog_mT">50dp</dimen>
+
+<dimen name="dialog_pB">8dp</dimen>
+<dimen name="dialog_pT">12dp</dimen>
+<dimen name="dialog_pR">8dp</dimen>
+<dimen name="dialog_pL">35dp</dimen>
+
+<dimen name="abjad_w">150dp</dimen>
+<dimen name="abjad_h">150dp</dimen>	
+	
+<dimen name="mudahWidth">200dp</dimen>
+<dimen name="bingkaiWidth">200dp</dimen>
+<dimen name="btnlvl_w">180dp</dimen>
+<dimen name="btnlvl_h">35dp</dimen>
+
+<dimen name="btns_w">60dp</dimen>
+<dimen name="btns_h">35dp</dimen>
+
+<dimen name="btn_pilihan">18sp</dimen>
+<dimen name="tx_lvl">15sp</dimen>
+<dimen name="tx_tips">14sp</dimen>
+
+
+<dimen name="benar">100dp</dimen>
+<dimen name="benar_mT">70dp</dimen>
+
+
+<dimen name="rllvl_mT">17dp</dimen>
+
+
+<dimen name="tagsoal_w">80dp</dimen>
+<dimen name="tagsoal_h">32dp</dimen>
+<dimen name="tagsoal_mT">20dp</dimen>
+
+
+<dimen name="next">20dp</dimen>
+
+
+<dimen name="btn_mudah">37dp</dimen>
+<dimen name="btn_mudah_m">3dp</dimen>
+<dimen name="tips_p">5dp</dimen>
+
+
+<dimen name="progress_m">7dp</dimen>
+
+
+	<!-- activity_tebak -->
+	
+<dimen name="sv_tebak_mT">40dp</dimen>	
+<dimen name="level_tebak_mT">18dp</dimen>	
+	
+<dimen name="tag_soal_tebak_mT">23dp</dimen>
+
+<dimen name="tx_jawaban_tebak">24sp</dimen>
+<dimen name="tx_header">15sp</dimen>
+
+<dimen name="tbklvl_w">59dp</dimen>
+<dimen name="tbklvl_h">59dp</dimen>
+
+<dimen name="reset_w">120dp</dimen>
+<dimen name="reset_h">30dp</dimen>
+<dimen name="btn_tbk_reset">15sp</dimen>
+<dimen name="btn_tbk_pilihan">25sp</dimen>
+
+
+<dimen name="hewan_soal_w">165dp</dimen>
+<dimen name="hewan_soal_h">190dp</dimen>
+
+
+<dimen name="tx_jwb_m">6dp</dimen>
+
+<dimen name="tbklvljwb_w">45dp</dimen>
+<dimen name="tbklvljwb_h">45dp</dimen>
+
+<dimen name="rlkiri_p">10dp</dimen>
+
+
+<dimen name="rlkiri_w">180dp</dimen>
+
+<!-- activity Warna -->
+
+
+<dimen name="tx_warna">19sp</dimen>
+
+<dimen name="warna_h">78dp</dimen>
+<dimen name="warna_w">78dp</dimen>
+<dimen name="warna_m">6dp</dimen>
+
+
+<!-- activity Cari abjad -->
+
+<dimen name="btn_cari_abjad_h">50dp</dimen>
+<dimen name="btn_cari_abjad_w">50dp</dimen>
+
+
+<dimen name="thawal">100dp</dimen>
+<dimen name="tx_thawal">70dp</dimen>
+
+<dimen name="tx_cari_abjad">19sp</dimen>
+
+<!-- activity myDialog -->
+
+
+<dimen name="tx_dialog">15sp</dimen>
+<dimen name="rl_dialog_mT">30dp</dimen>
+<dimen name="rl_dialog_mB">10dp</dimen>
+<dimen name="rl_dialog_mR">20dp</dimen>
+<dimen name="rl_dialog_pT">25dp</dimen>
+
+<!-- activity kredit -->
+
+
+<dimen name="tx_tentang">18sp</dimen>
+<dimen name="tx_kredit">24sp</dimen>
+
+
+	
+	
+
+</resources>

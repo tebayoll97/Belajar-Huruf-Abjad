@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+  
+    <item android:state_pressed="false">
+        
+<shape>
+    <solid android:color="#323e33"/>
+    
+     <padding
+         
+         android:left="@dimen/lima"
+         android:top="@dimen/lima"
+         android:bottom="@dimen/lima"
+         android:right="@dimen/lima"
+         
+         />
+     
+      <gradient
+    android:type="linear"
+    android:angle="135"
+    android:startColor="#30a23a"
+    android:endColor="#1ee931" />
+    
+    <stroke 
+         android:width="2dp"
+         android:color="#d8f0da"
+         />
+</shape>
+       
+    </item>
+    
+     
+   
+    
+</selector>
+

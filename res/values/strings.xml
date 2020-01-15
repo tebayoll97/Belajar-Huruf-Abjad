@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Belajar Huruf Abjad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_abjad">Abjad</string>
+    <string name="title_activity_munaroh">Munaroh</string>
+    <string name="title_activity_hewan">Hewan</string>
+    <string name="title_activity_mudah">Mudah</string>
+    <string name="progress">Progress 0%</string>
+    <string name="tips">Tips</string>
+    <string name="title_activity_coba">Coba</string>
+    <string name="title_activity_tebak">Tebak</string>
+    <string name="title_activity_warna">Warna</string>
+    <string name="title_activity_cari_abjad">CariAbjad</string>
+
+</resources>

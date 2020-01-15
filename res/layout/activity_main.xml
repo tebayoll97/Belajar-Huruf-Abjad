@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context="com.tebayoll.hurufabjad.MainActivity" >
+     
+     <RelativeLayout 
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@+id/rlKanan"
+        android:layout_height="wrap_content"
+        android:background="@drawable/judule"
+        android:layout_above="@+id/rl_burung">
+        
+          
+        </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/rl_burung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/air">
+        
+          
+           <Button 
+        android:id="@+id/burung"
+        android:padding="@dimen/btnMain_p"
+        android:background="@drawable/burung"
+        android:layout_width="@dimen/manuk_w"
+        android:layout_height="@dimen/manuk_h"
+        />
+        
+        </RelativeLayout>
+    
+       <RelativeLayout 
+        android:id="@+id/air"
+    	android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="@dimen/air"
+        android:layout_alignParentBottom="true">
+      
+         
+           
+        </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/rlKanan"
+    	android:padding="@dimen/activity_vertical_margin"
+        android:background="@drawable/bg_lan"
+        android:layout_width="@dimen/svWidth"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+        
+        		 <Button
+   			     	android:layout_alignParentTop="true"
+   			     	android:layout_centerHorizontal="true"
+        			android:id="@+id/header_main_menu"
+        			android:text="Menu utama"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="@dimen/tag_soal_tebak_mT"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+        
+        		 <ScrollView
+        android:id="@+id/sv_main"
+        android:layout_below="@+id/header_main_menu"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        
+        		      <RelativeLayout 
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        		     		 
+     <RelativeLayout 
+        android:id="@+id/rlKanan1"
+        android:layout_marginTop="@dimen/btnMain_mT"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+         <Button 
+        android:id="@+id/btn1"
+        android:text="HURUF ABJAD"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/abjad"
+        android:textSize="@dimen/tx_main_activity"
+        android:background="@drawable/btn_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+         
+         <Button 
+        android:id="@+id/btn2"
+        android:layout_toRightOf="@+id/btn1"
+        android:text="SUARA HEWAN"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/hewan"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+         
+         <Button 
+        android:id="@+id/btn3"
+        android:layout_toRightOf="@+id/btn2"
+        android:text="COCOK ABJAD"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/cocok"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+        
+         
+        
+         </RelativeLayout>
+         
+      <RelativeLayout 
+        android:id="@+id/rlKanan2"
+        android:layout_below="@+id/rlKanan1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+         <Button 
+        android:id="@+id/btn4"
+        android:text="WARNA DASAR"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/warna"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+         
+         <Button 
+        android:id="@+id/btn5"
+        android:layout_toRightOf="@+id/btn4"
+        android:text="CARI ABJAD"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/cari"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+          
+         <Button 
+        android:id="@+id/btn6"
+        android:layout_toRightOf="@+id/btn5"
+        android:text="TEBAK HEWAN"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/tebak"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+        
+         
+        
+         </RelativeLayout>
+         
+        <RelativeLayout 
+        android:id="@+id/rlKanan3"
+        android:layout_below="@+id/rlKanan2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+       
+         
+         <Button 
+        android:id="@+id/btn8"
+        android:text="KREDIT"
+        android:onClick="credit"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/credit"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+         
+         
+         <Button 
+        android:id="@+id/btn9"
+        android:onClick="about"
+        android:layout_toRightOf="@+id/btn8"
+        android:text="TENTANG"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/tentang"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+        
+           <Button 
+        android:layout_toRightOf="@+id/btn9"
+        android:id="@+id/btn7"
+        android:text="KELUAR"
+        android:onClick="keluar"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="@dimen/btnMain_p"
+        android:drawableTop="@drawable/ic_exit"
+        android:textSize="@dimen/tx_main_activity"
+        android:layout_margin="@dimen/btnMain_m"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/btnMain"
+        android:layout_height="@dimen/btnMain"
+        />
+        
+         </RelativeLayout>
+         </RelativeLayout>
+     </ScrollView>
+     
+     </RelativeLayout>
+
+   
+
+</RelativeLayout>

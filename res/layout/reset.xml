@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.tebayoll.hurufabjad.MainActivity" >
+    
+    <RelativeLayout 
+    
+        android:id="@+id/popup_reset"
+    	android:paddingRight="@dimen/activity_vertical_margin"
+    	android:paddingLeft="@dimen/activity_vertical_margin"
+    	android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/rl_dialog_pT"
+        android:background="@drawable/bg_lan"
+        android:layout_width="@dimen/svWidth"
+        android:layout_height="@dimen/svHeight"
+        android:layout_centerInParent="true">
+        
+          <TextView
+   			     	android:layout_alignParentTop="true"
+   			     	android:layout_centerHorizontal="true"
+        			android:id="@+id/tv_reset"
+        			android:gravity="center"
+        			android:text="Ingin Mengulang ?"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+         
+         
+          <RelativeLayout 
+    
+        android:layout_below="@+id/tv_reset"
+    android:layout_marginTop="@dimen/rl_dialog_mT"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+        
+            
+              
+              
+        <Button 
+        android:id="@+id/ya"
+        android:text="Ya"
+        android:layout_marginRight="@dimen/rl_dialog_mR"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_dialog"
+        android:background="@drawable/btnp_xml"
+        android:layout_height="@dimen/exitPopup_h"
+        android:layout_width="@dimen/exitPopup_w"
+        />
+        
+         <Button 
+        android:id="@+id/tidak"
+        android:layout_toRightOf="@+id/ya"
+        android:text="Tidak"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_dialog"
+        android:background="@drawable/btnp_xml"
+        android:layout_height="@dimen/exitPopup_h"
+        android:layout_width="@dimen/exitPopup_w"
+        />
+         
+          </RelativeLayout>
+        
+        
+        
+        </RelativeLayout>
+        </RelativeLayout>

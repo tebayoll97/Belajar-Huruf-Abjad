@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:padding="@dimen/activity_vertical_margin"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_lan"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    		
+    		<Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/head"
+        			android:text="TENTANG"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+    
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:scrollbars="none"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    		
+        
+        
+        
+        
+        
+        
+    
+        <LinearLayout 
+            android:orientation="vertical"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:gravity="center_vertical"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx1"
+        android:text="Aplikasi belajar huruf abjad bersama hewan ini di buat untuk membantu anak usia dini belajar mengenal huruf abjad, agar anak usia dini lebih tertarik untuk belajar karena aplikasi di sertai animasi yang menarik."
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_tentang"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+    
+    	<LinearLayout 
+        android:layout_marginTop="10dp" 
+    	android:gravity="center_vertical"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx2"
+        android:text="Aplikasi ini di buat dengan Eclipse, dengan polesan desain gambar menggunakan Photoshop CS6"
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_tentang"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+    
+        <LinearLayout 
+        android:layout_marginTop="10dp" 
+    	android:gravity="center_vertical"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:layout_marginRight="5dp"
+    	android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:background="@drawable/benar"
+        />
+    
+    <TextView
+        android:id="@+id/tx3"
+        android:text="Aplikasi ini dibuat oleh Nurkholis.ixh@gmail.com (2019), untuk tugas akhir skripsi di Universitas BSI Bandung"
+        android:textColor="#fff"
+        android:textSize="@dimen/tx_tentang"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    
+     
+       
+        
+       
+        
+    
+    
+    	</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

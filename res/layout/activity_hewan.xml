@@ -1,0 +1,591 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_main"
+    android:layout_height="match_parent"
+    tools:context="com.tebayoll.hurufabjad.Hewan" >
+    
+      <Button 
+        android:onClick="back"
+        android:id="@+id/back"
+        android:layout_marginLeft="@dimen/back_mL"
+        android:layout_marginRight="@dimen/back_mR"
+        android:layout_marginTop="@dimen/back_mT"
+        android:layout_marginBottom="@dimen/back_mB"
+        android:background="@drawable/back"
+        android:layout_height="@dimen/back_h"
+        android:layout_width="@dimen/back_w"
+        android:layout_alignParentLeft="true"
+        />
+      
+       <LinearLayout 
+        android:layout_marginTop="@dimen/back_m"
+        android:layout_toRightOf="@+id/back"
+        android:layout_toLeftOf="@+id/rlkiri"
+        android:layout_above="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+          <Button
+                            android:id="@+id/textAnim"
+                            android:visibility="invisible"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_soal"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"
+                            android:text=""/>
+         
+</LinearLayout>
+      
+    
+      
+    
+    <!-- Gambar Muncul -->
+    
+     <RelativeLayout 
+        android:id="@+id/rlkiri"
+        android:layout_toRightOf="@+id/sv"
+        android:background="@drawable/bg_portrait"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+          <Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/tag_kanan"
+        			android:text="ANIMASI"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="@dimen/hewan_mT"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+         
+                         <ImageView
+                            android:layout_above="@+id/llbawah"
+                            android:id="@+id/hewanAnim"
+                            android:layout_centerHorizontal="true"
+                            android:visibility="invisible"
+                            android:layout_width="@dimen/hewan_animW"
+                            android:layout_height="@dimen/hewan_animH"/>
+                         
+                          <LinearLayout 
+                            	android:id="@+id/llbawah"
+         						android:layout_alignParentBottom="true"
+   								 android:layout_width="match_parent"
+   		 						android:layout_height="wrap_content">
+                         
+                         <Button
+                            android:id="@+id/abjadAnim"
+                            android:visibility="invisible"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="@dimen/abjad_animW"
+                            android:layout_height="@dimen/abjad_animH"
+                            android:text=""/>
+                         </LinearLayout>
+                            
+        
+     </RelativeLayout>
+        
+      <RelativeLayout 
+        android:id="@+id/sv"
+        android:layout_below="@+id/back"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="@dimen/hewanWidth"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_lan"
+        android:layout_alignParentLeft="true">
+
+     <Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/tag_kiri"
+        			android:text="SUARA HEWAN"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="@dimen/hewan_mT"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+         
+     
+    <ScrollView
+        android:layout_below="@+id/tag_kiri"
+        android:layout_marginTop="@dimen/lima"
+        android:paddingBottom="@dimen/lima"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+    
+    <RelativeLayout 
+        android:id="@+id/rlHewan"
+        android:gravity="center"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true">
+        
+        
+        <!-- a-c -->
+      
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/ayam"
+                            android:background="@drawable/ayam"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                            
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/bWidth"
+                    android:background="@drawable/bg_plat"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/beruang"
+                            android:background="@drawable/beruang"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/bWidth"
+                    android:background="@drawable/bg_plat"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/cicak"
+                            android:background="@drawable/cicak"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                            
+                    
+                    
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+            
+            
+            <!-- Baris 2 d e f -->
+            
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_below="@+id/ll1"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:layout_width="@dimen/bWidth"
+                    android:background="@drawable/bg_plat"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/domba"
+                            android:background="@drawable/domba"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/bWidth"
+                    android:background="@drawable/bg_plat"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/elang"
+                            android:background="@drawable/elang"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                            
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="@dimen/bWidth"
+                    android:background="@drawable/bg_plat"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/flamingo"
+                            android:background="@drawable/flamingo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                        
+                    
+                    
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+
+            <!-- Baris 3 g h i -->
+            
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_below="@+id/ll2"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/gajah"
+                            android:background="@drawable/gajah"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/harimau"
+                            android:contentDescription="harimau"
+                            android:background="@drawable/harimau"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/ikan"
+                            android:background="@drawable/ikan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                          
+                    
+                    
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+
+            <!-- Baris 4 j k l -->
+            
+            <LinearLayout
+                android:id="@+id/ll4"
+                android:layout_below="@+id/ll3"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/jangkrik"
+                            android:background="@drawable/jangkrik"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                     
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/kerbau"
+                            android:background="@drawable/kerbau"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/lalat"
+                            android:background="@drawable/lalat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                        
+                    
+                    
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+
+            <!-- Baris 5 m n o -->
+            
+            <LinearLayout
+                android:id="@+id/ll5"
+                android:layout_below="@+id/ll4"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/merpati"
+                            android:background="@drawable/merpati"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/nyamuk"
+                            android:background="@drawable/nyamuk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/orangutan"
+                            android:background="@drawable/orangutan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                     
+                            
+                    
+                    
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+
+            <!-- Baris 6 p q r -->
+            
+            <LinearLayout
+                android:id="@+id/ll6"
+                android:layout_below="@+id/ll5"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/panda"
+                            android:background="@drawable/panda"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/quokka"
+                            android:background="@drawable/quokka"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                    
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/rusa"
+                            android:background="@drawable/rusa"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                      
+                    
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+
+            <!-- Baris 7 s t u-->
+            
+            <LinearLayout
+                android:id="@+id/ll7"
+                android:layout_below="@+id/ll6"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/singa"
+                            android:background="@drawable/singa"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/tikus"
+                            android:background="@drawable/tikus"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                     
+                    
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/ular"
+                            android:background="@drawable/ular"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                     
+                </RelativeLayout>
+        
+
+            
+            </LinearLayout>
+
+            <!-- Baris 8 w z -->
+            
+            <LinearLayout
+                android:id="@+id/ll8"
+                android:layout_below="@+id/ll7"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/walet"
+                            android:background="@drawable/walet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                       
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:background="@drawable/bg_plat"
+                    android:layout_width="@dimen/bWidth"
+                    android:layout_height="@dimen/bHeight">
+                    
+                        <ImageView
+                            android:id="@+id/zebra"
+                            android:background="@drawable/zebra"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    
+                </RelativeLayout>
+                
+            
+            </LinearLayout>
+            
+            
+        
+        
+        
+           
+   
+         
+     </RelativeLayout>
+     </ScrollView>
+     </RelativeLayout>
+
+</RelativeLayout>

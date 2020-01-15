@@ -1,0 +1,659 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/bg_main"
+    tools:context="com.tebayoll.hurufabjad.Tebak" >
+
+     <Button 
+        android:onClick="back"
+        android:id="@+id/back"
+        android:layout_marginLeft="@dimen/back_mL"
+        android:layout_marginRight="@dimen/back_mR"
+        android:layout_marginTop="@dimen/back_mT"
+        android:layout_marginBottom="@dimen/back_mB"
+        android:background="@drawable/back"
+        android:layout_height="@dimen/back_h"
+        android:layout_width="@dimen/back_w"
+        android:layout_alignParentLeft="true"
+        />
+     
+     <Button 
+        android:id="@+id/reset"
+        android:text="RESET"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:textSize="@dimen/btn_tbk_reset"
+        android:layout_toRightOf="@+id/back"
+        android:layout_marginLeft="@dimen/back_m"
+        android:layout_marginRight="@dimen/back_m"
+        android:layout_marginTop="@dimen/back_m"
+        android:layout_marginBottom="@dimen/back_mB"
+        android:background="@drawable/btn_delete"
+        android:layout_height="@dimen/reset_h"
+        android:layout_width="@dimen/reset_w"
+        />
+    
+     <RelativeLayout 
+        android:id="@+id/rlkiri"
+        android:layout_below="@+id/back"
+        android:gravity="center"
+        android:background="@drawable/bg_portrait"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="@dimen/rlkiri_w"
+        android:layout_height="match_parent">
+    
+         <Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/tag_pilih_nomor"
+        			android:text="PILIH NOMOR"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="@dimen/level_tebak_mT"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+         
+     <ScrollView
+        android:id="@+id/sv"
+        android:layout_above="@+id/prolvl1"
+        android:layout_below="@+id/tag_pilih_nomor"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="@dimen/mudahWidth"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    
+    <RelativeLayout 
+        android:gravity="center"
+        android:padding="@dimen/rlkiri_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button 
+        android:id="@+id/lvl1"
+        android:text="1"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+        
+         <Button 
+        android:id="@+id/lvl2"
+        android:layout_alignParentRight="true"
+        android:text="2"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+          <Button 
+        android:id="@+id/lvl3"
+        android:layout_below="@+id/lvl1"
+        android:text="3"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+        
+         <Button 
+        android:id="@+id/lvl4"
+        android:layout_below="@+id/lvl1"
+        android:layout_alignParentRight="true"
+        android:text="4"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+           <Button 
+        android:id="@+id/lvl5"
+        android:layout_below="@+id/lvl3"
+        android:text="5"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+        
+         <Button 
+        android:id="@+id/lvl6"
+        android:layout_below="@+id/lvl3"
+        android:layout_alignParentRight="true"
+        android:text="6"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+          <Button 
+        android:id="@+id/lvl7"
+        android:layout_below="@+id/lvl5"
+        android:text="7"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl8"
+        android:layout_below="@+id/lvl5"
+        android:layout_alignParentRight="true"
+        android:text="8"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+            
+            <Button 
+        android:id="@+id/lvl9"
+        android:layout_below="@+id/lvl7"
+        android:text="9"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl10"
+        android:layout_below="@+id/lvl7"
+        android:layout_alignParentRight="true"
+        android:text="10"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+            
+             <Button 
+        android:id="@+id/lvl11"
+        android:layout_below="@+id/lvl9"
+        android:text="11"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl12"
+        android:layout_below="@+id/lvl9"
+        android:layout_alignParentRight="true"
+        android:text="12"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+            
+              <Button 
+        android:id="@+id/lvl13"
+        android:layout_below="@+id/lvl11"
+        android:text="13"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl14"
+        android:layout_below="@+id/lvl11"
+        android:layout_alignParentRight="true"
+        android:text="14"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+            
+             <Button 
+        android:id="@+id/lvl15"
+        android:layout_below="@+id/lvl13"
+        android:text="15"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl16"
+        android:layout_below="@+id/lvl13"
+        android:layout_alignParentRight="true"
+        android:text="16"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+            
+             <Button 
+        android:id="@+id/lvl17"
+        android:layout_below="@+id/lvl15"
+        android:text="17"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl18"
+        android:layout_below="@+id/lvl15"
+        android:layout_alignParentRight="true"
+        android:text="18"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+            
+             <Button 
+        android:id="@+id/lvl19"
+        android:layout_below="@+id/lvl17"
+        android:text="19"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+         
+            <Button 
+        android:id="@+id/lvl20"
+        android:layout_below="@+id/lvl17"
+        android:layout_alignParentRight="true"
+        android:text="20"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_pilihan"
+        android:background="@drawable/btno_xml"
+        android:layout_height="@dimen/tbklvl_h"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_margin="@dimen/btn_mudah_m"
+        />
+        
+        
+         
+        
+      
+        
+        </RelativeLayout>
+        </ScrollView>
+        
+     	
+        </RelativeLayout>
+    
+     
+     <!-- TENGAH -->
+     
+      <RelativeLayout 
+        android:id="@+id/rltengah"
+        android:background="@drawable/bg_portrait"
+      	android:gravity="center"
+        android:layout_toLeftOf="@+id/rlkanan"
+        android:layout_toRightOf="@+id/rlkiri"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+   			 
+          			
+          			
+          			   
+          
+          <RelativeLayout 
+      			android:id="@+id/rl_ll"
+       			android:layout_width="wrap_content"
+        		android:layout_height="wrap_content">
+    
+              <Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/tag_header"
+        			android:text="tebak hewan"
+        			android:textAllCaps="true"
+        			android:textColor="#fff"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="@dimen/tag_soal_tebak_mT"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+    
+           <LinearLayout 
+                android:orientation="vertical"
+        		android:id="@+id/ll1"
+        	 android:layout_toLeftOf="@+id/ll2"
+        		android:layout_above="@+id/lljwb"
+        		android:gravity="center"
+       			android:layout_width="wrap_content"
+        		android:layout_height="wrap_content">
+    
+    <Button 
+        android:id="@+id/btn1"
+        android:gravity="center"
+        android:text=""
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        />
+    <Button 
+        android:id="@+id/btn2"
+        android:gravity="center"
+        android:text=""
+   
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        />  
+        
+     <Button 
+        android:id="@+id/btn3"
+        android:gravity="center"
+        android:text=""
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        />
+    
+   		  </LinearLayout>
+          
+          <LinearLayout 
+             android:layout_centerHorizontal="true"
+             android:orientation="vertical"
+        	 android:id="@+id/ll2"
+        	 android:layout_above="@+id/lljwb"
+        	 android:gravity="center"
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content">
+    
+               <Button 
+        android:id="@+id/btn4"
+        android:gravity="center"
+        android:text=""
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        /> 
+              
+               <Button 
+        android:id="@+id/btn5"
+        android:gravity="center"
+        android:text=""
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        />
+    <Button 
+        android:id="@+id/btn6"
+        android:gravity="center"
+        android:text=""
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        />  
+        
+      
+              
+   		  </LinearLayout>
+   		  
+           <LinearLayout 
+             android:orientation="vertical"
+        	 android:id="@+id/ll3"
+        	 android:layout_toRightOf="@+id/ll2"
+        	 android:layout_above="@+id/lljwb"
+        	 android:gravity="center"
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content">
+         
+               <Button 
+        android:id="@+id/btn7"
+        android:gravity="center"
+        android:text=""
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        />
+               
+               
+               
+    <Button 
+        android:id="@+id/btn8"
+        android:gravity="center"
+        android:text="DEL"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_main_menu"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:background="@drawable/btn_delete"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        /> 
+        
+     <Button 
+        android:id="@+id/btn9"
+        android:gravity="center"
+        android:text="SAPU"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_main_menu"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:background="@drawable/btn_delete"
+        android:layout_width="@dimen/tbklvl_w"
+        android:layout_height="@dimen/tbklvl_h"
+        /> 
+               
+               </LinearLayout>
+          <LinearLayout 
+             android:orientation="horizontal"
+        	 android:id="@+id/lljwb"
+       		 android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+       		 android:layout_alignParentBottom="true">
+    
+               <Button 
+        android:id="@+id/btnjwb"
+        android:gravity="center"
+        android:text="Jawab"
+        android:layout_margin="@dimen/btn_mudah_m"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/btn_tbk_pilihan"
+        android:background="@drawable/btn_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_mudah"
+        /> 
+        </LinearLayout>
+        </RelativeLayout>
+        
+    
+          </RelativeLayout>
+    
+    
+    <!-- KANAN -->
+     <RelativeLayout 
+        android:id="@+id/rlkanan"
+              android:background="@drawable/bg_portrait" 
+        android:layout_width="@dimen/bingkaiWidth"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        		android:padding="@dimen/activity_vertical_margin"
+        android:layout_alignParentEnd="true">
+          
+         <Button
+   			     android:layout_alignParentTop="true"
+   			     android:layout_centerHorizontal="true"
+        			android:id="@+id/tag_soal"
+        			android:text="soal"
+        			android:textColor="#FFF"
+        			android:textStyle="bold"
+        			android:textSize="@dimen/tx_header"
+        			android:background="@drawable/bg_header"
+        			android:layout_marginTop="@dimen/tag_soal_tebak_mT"
+       				android:layout_width="match_parent"
+       				android:layout_height="@dimen/tagsoal_h"/>
+         
+         
+         <RelativeLayout
+             android:id="@+id/rljwb"
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+        	 android:gravity="center"
+        android:layout_margin="@dimen/tx_jwb_m"
+        	android:background="@drawable/btn_main_activity"
+       		 android:layout_alignParentBottom="true" >
+    
+              <TextView
+        android:id="@+id/tv_jwb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/tx_jawaban_tebak"
+        android:layout_margin="@dimen/progress_m" />
+             
+    
+         </RelativeLayout>
+          			
+          <RelativeLayout
+              android:id="@+id/rlabjad"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_above="@+id/rljwb">
+    
+          			<ImageView
+                            android:id="@+id/hewan"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/ayam"
+                            android:layout_width="@dimen/hewan_soal_w"
+                            android:layout_height="@dimen/hewan_soal_h"/>
+          			
+          			<ImageView
+                            android:id="@+id/benar"
+                            android:background="@drawable/benar"
+                            android:visibility="invisible"
+                            android:layout_centerHorizontal="true"
+        					android:layout_marginTop="@dimen/benar_mT"
+                            android:layout_width="@dimen/benar"
+                            android:layout_height="@dimen/benar"/>
+          			
+          		
+          			
+          			
+          
+          </RelativeLayout>
+    
+          
+        
+           
+        
+       
+        
+      
+        
+        </RelativeLayout>
+     
+
+</RelativeLayout>

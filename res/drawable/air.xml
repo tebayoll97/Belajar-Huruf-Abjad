@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/air_a"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_b"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_c"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_d"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_e"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_f"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_g"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_h"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_i"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_j"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_k"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_l"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_m"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_n"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_o"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_p"
+        android:duration="150"/>
+    
+    <item
+        android:drawable="@drawable/air_q"
+        android:duration="150"/>
+
+</animation-list>
